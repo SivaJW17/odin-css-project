@@ -1,5 +1,70 @@
+body {
+    font: CaskaydiaMono Nerd Font, serif, monospace;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#logo #list {
+    display: flex;
+}
+
+#logo {
+    padding: 0;
+    margin-left: 8rem;
+}
+
+#list {
+    padding: 0;
+    margin-right: 8rem;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px
+}
+
 .header-container {
     background-color: #1E2837;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-main {
+    background-color: #1E2837;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+#info {
+    text-align: center;
+}
+
+.section-one {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.combine {
+    max-width: 200px;
+}
+
+#image {
+    border: none;
+    border-radius: 25px;
 }
 
 .quotes {
@@ -8,12 +73,26 @@
 
 .message {
     background-color: #3B82F6;
+    color: whitesmoke;
 }
 
 .footer {
     background-color: #1E2837;
+    color: whitesmoke;
+    padding: 0;
+    font-size: 0.7rem;
+    text-align: center;
 }
 
 button {
     background-color: #3B82F6;
+    color: whitesmoke;
+    border: none;
+    border-radius: 3px;
+    padding: 3px 7px;
+}
+
+#signup {
+    border-style: solid;
+    border-color: whitesmoke;
 }
