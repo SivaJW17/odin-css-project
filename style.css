@@ -12,29 +12,30 @@ a {
     color: whitesmoke;
 }
 
-#logo #list {
-    display: flex;
-}
-
 #logo {
     padding: 0;
-    margin-left: 8rem;
+    margin-right: auto;
 }
 
 #list {
     padding: 0;
-    margin-right: 8rem;
+    margin-left: auto;
 }
 
 ul {
     display: flex;
     list-style: none;
-    gap: 16px
+    gap: 16px;
 }
 
 .header-container {
     background-color: #1E2837;
     color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.link-logo {
     display: flex;
     justify-content: space-between;
 }
@@ -69,8 +70,21 @@ ul {
 
 .quotes {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
 }
 
+.para-thor {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+}
+
+#thor {
+    margin-left: auto;
+}
 .message {
     background-color: #3B82F6;
     color: whitesmoke;
