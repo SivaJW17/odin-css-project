@@ -1,5 +1,4 @@
 body {
-    font: CaskaydiaMono Nerd Font, serif, monospace;
     margin: 0;
     height: 100vh;
     display: flex;
@@ -14,6 +13,8 @@ a {
 #logo {
     padding: 0;
     margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 #list {
@@ -22,15 +23,14 @@ a {
 }
 
 ul {
+    margin-top: 30px;
     display: flex;
     list-style: none;
     gap: 16px;
-    font-size: 14px;
 }
 
 .header-container {
     background-color: #1F2937;
-    color: whitesmoke;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
@@ -44,18 +44,35 @@ ul {
 
 .header-main {
     background-color: #1F2937;
-    color: whitesmoke;
     display: flex;
     justify-content: space-between;
     gap: 25px;
+}
+
+#is-awesome {
+    font-size: 48px; 
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+#website #list {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .awesome {
     max-width: 700px;
 }
 
+#hills {
+    padding: 30px;
+}
+
 #info {
     text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
 }
 
 .section-one {
@@ -82,7 +99,6 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 1.2rem;
     padding: 50px;
 }
 
@@ -93,7 +109,9 @@ ul {
 }
 
 .para {
-    font-weight: 350;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
 }
 
 #thor {
@@ -107,12 +125,12 @@ ul {
 }
 
 .message {
-    background-color: #3B82F6;
+    background-color: #3882F6;
     color: whitesmoke;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 400px;
+    gap: 200px;
     padding: 20px 100px;
     border-radius: 6px;
 }
@@ -126,7 +144,7 @@ ul {
 }
 
 button {
-    background-color: #3B82F6;
+    background-color: #3882F6;
     color: whitesmoke;
     border-radius: 5px;
     padding: 5px 12px 5px 12px;
